@@ -1,0 +1,174 @@
+Mendoza_Raelyn_CS404_HW1 TestHomework1
+
+Test 1: matrixMultiplication - [Passed]
+   1   2   3
+   4   5   6
+   7   8   9
+X
+  11  12  13
+  14  15  16
+  17  18  19
+ --------------
+ Expected:
+  90  96 102
+ 216 231 246
+ 342 366 390
+
+ Yours:
+  90  96 102
+ 216 231 246
+ 342 366 390
+
+
+Test 2: matrixMultiplication - [Passed]
+   1   2   3
+   4   5   6
+X
+   7   8   9
+   1   0   5
+  10   3   2
+ --------------
+ Expected:
+  39  17  25
+  93  50  73
+
+ Yours:
+  39  17  25
+  93  50  73
+
+
+Test 3: matrixMultiplication - [Passed]
+   7   6   3
+X
+   7
+   1
+  10
+ --------------
+ Expected:
+  85
+
+ Yours:
+  85
+
+
+Test 4: matrixMultiplication - [Passed]
+  18  26  52  12
+  23  18  31  65
+  10  22  14  18
+X
+   7
+   8
+   9
+   1
+ --------------
+ Expected:
+ 814
+ 649
+ 390
+
+ Yours:
+ 814
+ 649
+ 390
+
+
+Test 5: matrixMultiplication - [Passed]
+  15
+X
+   7   8   9   1
+ --------------
+ Expected:
+ 105 120 135  15
+
+ Yours:
+ 105 120 135  15
+
+
+Test 6: isSorted - [Passed]
+ [1, 2, 3, 4, 5, 6, 7] low = 0, high = 6
+ --------------
+ Expected: true
+ Yours: true
+
+Test 7: isSorted - [Passed]
+ [1, 2, 3, 4, 4, 6, 7] low = 0, high = 6
+ --------------
+ Expected: true
+ Yours: true
+
+Test 8: isSorted - [Passed]
+ [3, 2, 1, 4, 5, 6, 7] low = 0, high = 2
+ --------------
+ Expected: false
+ Yours: false
+
+Test 9: isSorted - [Passed]
+ [3, 1, 4, 2, 5, 6, 7] low = 1, high = 4
+ --------------
+ Expected: false
+ Yours: false
+
+Test 10: isSorted - [Passed]
+ [3, 2, 1, 4, 5, 6, 7] low = 3, high = 3
+ --------------
+ Expected: true
+ Yours: true
+
+Test 11: isSorted - [Passed]
+ [3, 2, 1, 4, 5, 6, 7] low = 0, high = 0
+ --------------
+ Expected: true
+ Yours: true
+
+Test 12: isSorted - [Passed]
+ [3, 2, 1, 4, 5, 6, 7] low = 3, high = 6
+ --------------
+ Expected: true
+ Yours: true
+
+Test 13: isSorted - [Passed]
+ [3, 2, 1, 4, 5, 16, 7, 13] low = 4, high = 7
+ --------------
+ Expected: false
+ Yours: false
+
+Test 14: isSorted - [Passed]
+ [3, 2, 1, 4, 5, 6, 17, 13] low = 3, high = 6
+ --------------
+ Expected: true
+ Yours: true
+
+Test 15: isSorted - [Passed]
+ [3, 2, 1, 4, 5, 6, 17, 13] low = 7, high = 7
+ --------------
+ Expected: true
+ Yours: true
+
+Tests 16 to 20 are based on the following array:
+[10, 15, 20, 8, 32, 6, 11, 3, 19, 12, 13]
+
+Test 16: indexOfMax(low = 0, high = 10) - [Passed]
+ Expected: 4
+ Yours: 4
+
+Test 17: indexOfMax(low = 5, high = 6) - [Passed]
+ Expected: 6
+ Yours: 6
+
+Test 18: indexOfMax(low = 7, high = 10) - [Passed]
+ Expected: 8
+ Yours: 8
+
+Test 19: indexOfMax(low = 6, high = 7) - [Passed]
+ Expected: 6
+ Yours: 6
+
+Test 20: indexOfMax(low = 10, high = 10) - [Passed]
+ Expected: 10
+ Yours: 10
+
+Total test cases: 20
+Correct: 20
+Wrong: 0
+
+Process finished with exit code 0
