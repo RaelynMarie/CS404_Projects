@@ -1,0 +1,46 @@
+Mendoza_Raelyn_CS404_HW4 TestHomework4
+
+Problem 1:
+n1 = 3, W1 = 30
+p1 = {50, 60, 140}
+w1 = {5, 10, 20}
+
+Test 1: greedyKnapsack(w1, p1, n1, W1)[Passed]
+ Expected: 190
+ Yours: 190
+
+Test 2: dpKnapsack(w1, p1, n1, W1)[Passed]
+ Expected: 200
+ Yours: 200
+
+Problem 2:
+n2 = 4, W2 = 16
+p2 = {40, 30, 50, 10}
+w2 = {2, 5, 10, 5}
+
+Test 3: greedyKnapsack(w2, p2, n2, W2)[Passed]
+ Expected: 80
+ Yours: 80
+
+Test 4: dpKnapsack(w2, p2, n2, W2)[Passed]
+ Expected: 90
+ Yours: 90
+
+Problem 3:
+n3 = 6, W3 = 45
+p3 = {5, 26, 42, 15, 40, 30}
+w3 = {5, 13, 7, 5, 20, 10}
+
+Test 5: greedyKnapsack(w3, p3, n3, W3)[Passed]
+ Expected: 127
+ Yours: 127
+
+Test 6: dpKnapsack(w3, p3, n3, W3)[Passed]
+ Expected: 127
+ Yours: 127
+
+Total test cases: 6
+Correct: 6
+Wrong: 0
+
+Process finished with exit code 0

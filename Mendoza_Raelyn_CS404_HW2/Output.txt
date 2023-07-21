@@ -1,0 +1,98 @@
+Mendoza_Raelyn_CS404_HW2 TestHomework2
+
+The following tests are based on the adjacent matrix W and shortest path matrix P shown below:
+W = 
+0     1     ∞     1     5     
+9     0     3     2     ∞     
+∞     ∞     0     4     ∞     
+∞     ∞     2     0     3     
+3     ∞     ∞     ∞     0     
+
+P = 
+0     0     4     0     4     
+5     0     0     0     4     
+5     5     0     0     4     
+5     5     0     0     0     
+0     1     4     1     0     
+
+Test 1: minCost(src = 1, dest = 2) - [Passed]
+ Expected: 1
+ Yours: 1
+
+Test 2: minCost(src = 2, dest = 1) - [Passed]
+ Expected: 8
+ Yours: 8
+
+Test 3: minCost(src = 3, dest = 2) - [Passed]
+ Expected: 11
+ Yours: 11
+
+Test 4: minCost(src = 5, dest = 3) - [Passed]
+ Expected: 6
+ Yours: 6
+
+Test 5: minCost(src = 5, dest = 4) - [Passed]
+ Expected: 4
+ Yours: 4
+
+Test 6: minCost(src = 3, dest = 3) - [Passed]
+ Expected: 0
+ Yours: 0
+
+Test 7: findIndex([12, 20, 25, 45, 30, 29, 2], 0, 6) - [Passed]
+ Expected: 3
+ Yours: 3
+
+Test 8: findIndex([30], 0, 0) - [Passed]
+ Expected: 0
+ Yours: 0
+
+Test 9: findIndex([12, 20, 25, 30, 45, 50, 2], 0, 6) - [Passed]
+ Expected: 5
+ Yours: 5
+
+Test 10: findIndex([12, 20, 25, 30, 45, 50, 60], 0, 6) - [Passed]
+ Expected: 6
+ Yours: 6
+
+Test 11: findIndex([60, 50, 45, 30, 25, 20, 12], 0, 6) - [Passed]
+ Expected: 0
+ Yours: 0
+
+Test 12: findIndex([60, 73, 21, 33, 42, 39, 15, 10, 34, 98, 74], 2, 7) - [Passed]
+ Expected: 4
+ Yours: 4
+
+Test 13: findIndex([12, 32, 45, 12, 25, 70, 81], 0, 4) - [Passed]
+ Expected: 2
+ Yours: 2
+
+Test 14: findIndex([60, 50, 65, 12, 25, 44, 37], 3, 6) - [Passed]
+ Expected: 5
+ Yours: 5
+
+Test 15: average([10.4, 50.5, 84.6, 13.2, 10.1, 26.9, 71.4, 23.5], 4, 4) - [Passed]
+ Expected: 10.1
+ Yours: 10.1
+
+Test 16: average([10.4, 50.5, 84.6, 13.2, 10.1, 26.9, 71.4, 23.5], 0, 7) - [Passed]
+ Expected: 36.325
+ Yours: 36.325
+
+Test 17: average([10.4, 50.5, 84.6, 13.2, 10.1, 26.9, 71.4, 23.5], 3, 7) - [Passed]
+ Expected: 29.02
+ Yours: 29.02
+
+Test 18: average([10.4, 50.5, 84.6, 13.2, 10.1, 26.9, 71.4, 23.5], 4, 5) - [Passed]
+ Expected: 18.5
+ Yours: 18.5
+
+Test 19: average([10.4, 50.5, 84.6, 13.2, 10.1, 26.9, 71.4, 23.5], 0, 2) - [Passed]
+ Expected: 48.5
+ Yours: 48.5
+
+Total test cases: 19
+Correct: 19
+Wrong: 0
+
+Process finished with exit code 0
